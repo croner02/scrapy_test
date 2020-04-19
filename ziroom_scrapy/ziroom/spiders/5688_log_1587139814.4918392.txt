@@ -1,0 +1,293 @@
+2020-04-18 00:10:14 [scrapy.extensions.telnet] INFO: Telnet Password: a609699ed6c9e1ac
+2020-04-18 00:10:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-04-18 00:10:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['ziroom.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-04-18 00:10:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-04-18 00:10:14 [scrapy.middleware] INFO: Enabled item pipelines:
+['ziroom.pipelines.ZiroomPipeline', 'ziroom.pipelines.ZiroomPipelineJson']
+2020-04-18 00:10:14 [scrapy.core.engine] INFO: Spider opened
+2020-04-18 00:10:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-04-18 00:10:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-04-18 00:10:14 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:15 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:16 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:10:16 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:10:16 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:16 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:16 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:17 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:39 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.ziroom.com/robots.txt> (failed 1 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-04-18 00:10:39 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:10:39 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:40 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.ziroom.com/robots.txt> (failed 2 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:44 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:10:45 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:07 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET http://www.ziroom.com/robots.txt> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-04-18 00:11:07 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://www.ziroom.com/robots.txt>: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+Traceback (most recent call last):
+  File "C:\Users\rench\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 42, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-04-18 00:11:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-04-18 00:11:28 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.ziroom.com/z/s100013-p1/> (failed 1 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:28 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:29 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.ziroom.com/z/s100013-p1/> (failed 2 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.xicidaili.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.xicidaili.com:443 "GET /nn/ HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-04-18 00:11:52 [urllib3.connectionpool] DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-04-18 00:11:55 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET http://www.ziroom.com/z/s100013-p1/> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-04-18 00:11:55 [py.warnings] WARNING: C:\Users\rench\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\scraper.py:148: UserWarning: The "ZiroomSpider.parse" method is a generator and includes a "return" statement with a value different than None. This could lead to unexpected behaviour. Please see https://docs.python.org/3/reference/simple_stmts.html#the-return-statement for details about the semantics of the "return" statement within generators
+  warn_on_generator_with_return_value(spider, callback)
+
+2020-04-18 00:11:55 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.ziroom.com/z/s100013-p1/>
+Traceback (most recent call last):
+  File "C:\Users\rench\AppData\Local\Programs\Python\Python37\lib\site-packages\scrapy\core\downloader\middleware.py", line 42, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-04-18 00:11:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-04-18 00:11:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 6,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 2,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 4,
+ 'downloader/request_bytes': 1269,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'elapsed_time_seconds': 100.912418,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 4, 17, 16, 11, 55, 835104),
+ 'log_count/DEBUG': 220,
+ 'log_count/ERROR': 4,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'retry/count': 4,
+ 'retry/max_reached': 2,
+ 'retry/reason_count/twisted.internet.error.ConnectionRefusedError': 1,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 3,
+ "robotstxt/exception_count/<class 'twisted.internet.error.TCPTimedOutError'>": 1,
+ 'robotstxt/request_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2020, 4, 17, 16, 10, 14, 922686)}
+2020-04-18 00:11:55 [scrapy.core.engine] INFO: Spider closed (finished)
